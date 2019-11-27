@@ -1,0 +1,11 @@
+//
+//  release.xcconfig
+//  xcconfigTest
+//
+//  Created by Mac on 2017/3/22.
+//  Copyright © 2017年 fxh. All rights reserved.
+//
+APP_DISPLAY_NAME = 正式服
+CONFIG_FLAG = RELEASE_TEST
+
+#include "cmmon.xcconfig"

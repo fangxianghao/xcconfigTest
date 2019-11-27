@@ -1,0 +1,10 @@
+//
+//  cmmon.xcconfig
+//  xcconfigTest
+//
+//  Created by Mac on 2017/3/22.
+//  Copyright © 2017年 fxh. All rights reserved.
+//
+
+GCC_PREPROCESSOR_DEFINITIONS=$(inherited) APP_DISPLAY_NAME='$(APP_DISPLAY_NAME)' CONFIG_FLAG='$(CONFIG_FLAG)'
+OTHER_LDFLAGS = $(inherited) -ObjC 
